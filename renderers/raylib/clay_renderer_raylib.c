@@ -125,7 +125,7 @@ static inline Clay_Raylib_GlyphCodename Raylib_MeasureUtf8Glyph (Clay_StringSlic
 }
 
 
-Clay_Dimensions Raylib_MeasureText(Clay_StringSlice text, Clay_TextElementConfig *config, void *userData) {
+static inline Clay_Dimensions Raylib_MeasureText(Clay_StringSlice text, Clay_TextElementConfig *config, void *userData) {
     // Measure string size for Font
     Clay_Dimensions textSize = { 0 };
 
